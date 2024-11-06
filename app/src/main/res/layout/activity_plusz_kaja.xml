@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".PluszKaja">
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/input"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:hint="Írj be egy kaját"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input"
+        android:id="@+id/submit"
+        android:text="Bevitel"/>
+</RelativeLayout>
